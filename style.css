@@ -1,0 +1,618 @@
+/*
+Theme Name:     NYDataPC
+Theme URI:      N/A
+Description:    NYDataPC Stylesheet
+Author:         Rashad
+Author URI:     http://itsrashad.info
+Template:       nydatapc
+Version:        1.0
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #333333;
+    font-family: 'Arial';
+    font-size: 12px;
+    line-height: 1.7;
+    min-width: 960px;
+}
+#container {
+    background-color: #FBFBFB;
+    display: block;
+    float: left;
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+#top-wrapper {
+    background: none repeat scroll 0 0 #FBFBFB;
+    box-shadow: 10px 10px 10px #FFFFFF;
+    clear: both;
+}
+#wrapper {
+    background: none repeat scroll 0 0 #FDFDFD;
+    box-shadow: 0 5px 5px 1px #008000;
+    margin: 30px auto 0;
+    padding: 30px 40px;
+    width: 960px;
+}
+.header {
+    height: 145px;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    z-index: 100;
+}
+.logo {
+    float: left;
+}
+.phone {
+    clear: both;
+    color: #008000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: right;
+}
+.social-icons {
+    float: right;
+    padding: 7px 0 0;
+    position: relative;
+    top: -70px;
+    width: 100%;
+}
+.social-icons ul {
+    float: right;
+    list-style: none outside none;
+}
+.social-icons li.social_icon {
+    float: right;
+    margin-left: 6px;
+}
+
+#navigation {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 5px solid #306EFF;
+    border-radius: 20px;
+    border-top: 5px solid #306EFF;
+    box-shadow: -16px 14px 12px -9px rgba(204, 170, 204, 0.71);
+    height: 50px;
+    position: relative;
+    top: -20px;
+}
+#navigation:hover {
+    border-bottom: 5px solid #008000;
+    border-top: 5px solid #008000;
+}
+#navwrap {
+    font: 1.4em Verdana,Arial,sans-serif;
+    margin: 0 auto;
+    width: 960px;
+}
+
+ul.dropdown {
+    list-style:none;
+    float:left;
+    width:100%;
+    padding: 0 10px;
+}
+
+ul.dropdown li{
+    float: left;
+    position: relative;
+}
+
+ul.dropdown a {
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.dropdown li:hover a {
+    color: #000;
+}
+
+ul.dropdown li ul a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #306EFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #808080;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+ul.dropdown ul {
+    list-style: none outside none;
+    position: absolute;
+    width: 250px;
+    z-index: 500;
+}
+
+ul.dropdown li ul {
+    top:27px;
+    -moz-box-shadow:0 2px 10px #000; /* CSS 3 */
+}
+
+ul.dropdown ul ul {
+    top:0;
+    left:100%;
+}
+
+ul.dropdown ul li {
+    float:none;
+}
+
+ul.dropdown ul,
+ul.dropdown li:hover ul ul,
+ul.dropdown ul li:hover ul ul
+{ display: none; }
+
+ul.dropdown li:hover ul,
+ul.dropdown ul li:hover ul ,
+ul.dropdown ul li ul li:hover ul
+{ display: block;}
+
+ul.dropdown li * a:hover {
+    color: #008000;
+}
+
+.ny-contact {
+    border-bottom: 5px solid #008000;
+    border-radius: 20px;
+    height: 100px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 960px;
+    margin-top: 60px;
+}
+.ny-contact:hover {
+    box-shadow: -16px 14px 12px -9px rgba(204, 170, 204, 0.71);
+}
+
+.button {
+    border-top: 1px solid #d8e5ed;
+    background: #28668f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#813e9c), to(#28668f));
+    background: -webkit-linear-gradient(top, #813e9c, #28668f);
+    background: -moz-linear-gradient(top, #813e9c, #28668f);
+    background: -ms-linear-gradient(top, #813e9c, #28668f);
+    background: -o-linear-gradient(top, #813e9c, #28668f);
+    padding: 14px 28px;
+    position: relative;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    border-radius: 26px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    top: 25px;
+    color: #0d080d;
+    font-size: 17px;
+    left: 50px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #9ad617;
+    background: #9ad617;
+    color: #823c82;
+}
+.button:active {
+    border-top-color: #136296;
+    background: #136296;
+}
+.portfolio {
+    display: block;
+}
+
+#footer {
+    border-radius: 5px;
+    box-shadow: -16px 14px 12px -9px rgba(204, 170, 204, 0.71);
+    height: auto;
+    margin: 50px auto;
+    padding: 30px 40px;
+    width: 960px;
+}
+#footer:hover {
+    box-shadow: 0 5px 5px 5px #008000;
+}
+.footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 5px solid #008000;
+    border-top: 5px solid #008000;
+}
+.footer:hover {
+    border-top: 5px solid #306EFF;
+    border-bottom: 5px solid #306EFF;
+}
+.ny-footer {
+    margin: 0 auto;
+    width: 960px;
+}
+.footer-icon {
+    padding-top: 5px;
+    position: relative;
+    top: 10px;
+}
+.footer-text {
+    font-family: trebuchet ms;
+    padding-left: 30px;
+    padding-top: 10px;
+    position: relative;
+    text-shadow: 1px 1px 1px #008000;
+    top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: 100;
+    line-height: 1.0em;
+    word-wrap: break-word;
+}
+h1 {
+    color: #306EFF;
+    font: 500 2em/1.1em 'Mystery Quest',cursive;
+    padding: 10px;
+}
+h2 {
+    font: 1.75em/1.1em Prosto One,cursive;
+    margin: 0.75em 20px 0.75em 10px;
+}
+h3 {
+    font: 500 1.5em/1.1em Georgia,serif;
+    margin: 10px 10px 10px 0;
+}
+h4 {
+    font: 300 1.25em/1.1em Georgia,serif;
+    margin-right: 10px;
+    padding-bottom: 0;
+}
+h5 {
+    font: 500 1em/1.1em Georgia,serif;
+    margin-bottom: 1.125em;
+    margin-top: 1.125em;
+}
+h6 {
+    font: 500 0.75em/1.1em Georgia,serif;
+    margin-bottom: 1.285em;
+    margin-left: 10px;
+    margin-top: 1.285em;
+}
+ul {
+    list-style-image: url("/wp-content/themes/nydatapc/images/icon/array.png");
+}
+ol {
+    list-style: none outside none;
+}
+.list-computer {
+    list-style-image: url("/wp-content/themes/nydatapc/images/icon/computer.png");
+}
+.small-business {
+    list-style-image: url("/wp-content/themes/nydatapc/images/icon/small-business.png");
+}
+.device-hardware {
+    list-style-image: url("/wp-content/themes/nydatapc/images/icon/device-hardware.png");
+}
+li {
+    padding: 3px;
+}
+
+p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: justify;
+}
+a {
+    color: #FE5E08;
+    text-decoration: none;
+}
+
+.tags {
+	margin: -10px 10px 10px 0;
+}
+
+.tags a {
+	padding: 3px;
+	background: #eee;
+	color: #4b4b4b;
+	text-decoration: none;
+	font-size: .75em;
+	text-transform: uppercase;
+}
+.comment {
+    position: relative;
+    top: 30px;
+}
+.comment-header img {
+	float: left;
+	margin-right: 8px;
+}
+
+.comment-header {
+	height: 50px;
+}
+.comment-list li.comment {
+	margin-bottom: 40px;
+}
+
+.comment-list .depth-2, .depth-3 {
+	margin: 20px 0 0 20px;
+	border-top: 1px dotted #CCC;
+	padding-top: 20px;
+}
+
+.comment-list a, #respond a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #4b4b4b;
+}
+
+.comment-list a:hover, #respond a:hover{
+	text-decoration: underline;
+	color: #262626;
+}
+
+.comment-list p {
+	clear: both;
+	margin: 10px 0;
+}
+
+.logged-in-as {
+	margin: 15px 0;
+}
+
+#submit {
+	background: #56C928;
+	border: none;
+	padding: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+#respond {
+    display: block;
+}
+#respond label {
+	clear: both;
+	display: block;
+}
+.navigation {
+    border: 1px solid #F7F7F7;
+    padding: 5px;
+}
+.ny-small {
+    bottom: 10px;
+    font-family: 'Oregano',cursive;
+    font-size: 1em;
+    position: relative;
+}
+
+.content {
+    float: right;
+}
+.post-entry {
+    margin-bottom: 100px;
+}
+#page-header {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.page-title {
+    font-family: 'News Cycle';
+    font-size: 2em;
+    line-height: 32px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 960px;
+}
+
+.page-wrapper {
+    display: block;
+}
+
+
+img.attachment-post-thumbnail {
+    width:200px;
+    height:200px;
+    margin: 10px;
+    overflow: hidden;
+    border: 10px solid #F7F7F7;
+    cursor: pointer;
+    float: left;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border-radius: 50%;
+}
+img.attachment-post-thumbnail:hover {
+    border: 10px solid #fff;
+}
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+}
+
+img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+}
+.alignleft {
+    float:left;
+    padding:2px 0 0 10px;
+}
+.alignright {
+    float:right;
+    padding:2px 10px 0 5px;
+}
+.search {
+    float: right;
+}
+#searchform {
+    position: absolute;
+    right: 7.6%;
+    text-align: right;
+    top: 3.8em;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+#s {
+    float: right;
+    transition-duration: 400ms;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    width: 72px;
+}
+#s:focus {
+    background-color: #f9f9f9;
+    width: 196px;
+}
+input#s {
+    background: url("images/search.png") no-repeat scroll 5px 6px rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    font-size: 14px;
+    height: 22px;
+    line-height: 1.2em;
+    padding: 4px 10px 4px 28px;
+}
+input[type="text"], input[type="password"], textarea {
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    color: #888888;
+}
+#searchsubmit {
+    display: none;
+}
+
+/* =NYDataPC Widgets CSS
+-------------------------------------------------------------- */
+.left-widgets {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 25px;
+}
+.sidebar-left {
+    padding-bottom: 40px;
+}
+.sidebar-right {
+    margin-left: 30px;
+    padding-bottom: 40px;
+}
+.right-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 30px;
+}
+.widget-wrapper {
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    margin: 10px 5px;
+}
+.widget-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 2px 2px 2px #E18A16;
+}
+
+
+.clear {
+    clear: both;
+}
+.one_first {
+    width:100%;
+    padding-bottom:20px;
+}
+.one_half {
+    width:49%;
+    float:left;
+    padding-right:2%;
+    padding-bottom:20px;
+}
+.one_half.last {
+    width:49%;
+    float:right;
+    padding-right:0;
+}
+.one_third {
+    width:32%;
+    float:left;
+    padding-right:2%;
+    padding-bottom:20px;
+}
+.one_third.last {
+    width:32%;
+    float:right;
+    padding-right:0;
+}
+.two_third {
+    width:66%;
+    float:left;
+    padding-right:2%;
+    padding-bottom:20px;
+}
+.two_third.last {
+    width:64%;
+    float:right;
+    padding-right:0;
+}
+.one_fourth {
+    width:25%;
+    float:left;
+    padding-bottom:20px;
+}
+.one_fourth.last {
+    width:24%;
+    float:right;
+}
+.three_fourth {
+    width:73%;
+    float:left;
+    padding-right:2%;
+    padding-bottom:20px;
+}
+.three_fourth.last {
+    width:74.5%;
+    float:right;
+    padding-right:0;
+}
+.one_half+.one_half, 
+.one_third+.two_third, 
+.two_third+.one_third, 
+.one_third+.one_third+.one_third, 
+.one_fourth+.one_fourth+.one_half, 
+.one_fourth+.one_half+.one_fourth, 
+.one_half+.one_fourth+.one_fourth, 
+.one_fourth+.three_fourth, 
+.three_fourth+.one_fourth, 
+.one_fourth+.one_fourth+.one_fourth+.one_fourth {
+    float:right;
+    padding-right:0;
+}
+
